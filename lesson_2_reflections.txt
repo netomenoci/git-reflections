@@ -1,3 +1,11 @@
 What happens when you initialize a repository? Why do you need to do it?
 
-Git creates a hidden fold to hold the files necessary to control the versions of the project.
+Git creates a hidden and empty fold to hold the files necessary to control the versions of the project.
+
+
+
+How is the staging area different from the working directory and the repository? What value do you think it offers?
+
+The working directory holds your current folders, the HEAD, and you can add them to the staging area to then commit them at once or one by one (as you prefer).
+
+teste
