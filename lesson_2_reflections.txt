@@ -8,4 +8,26 @@ How is the staging area different from the working directory and the repository?
 
 The working directory holds your current folders, the HEAD, and you can add them to the staging area to then commit them at once or one by one (as you prefer).
 
-teste
+How can you use the staging area to make sure you have one commit per logical change?
+
+You can add the change to the staging area and to be sure that it is the only change, you might type git status, so it will shows all the files that you are about to commit.
+
+
+What are some situations when branches would be helpful in keeping your history organized? How would branches help?
+
+If you want to add some features, but you are not sure if they'll fit well, you might create a branch and add them to it, and if it suits well, then you can add it to the master branch.
+
+
+How do the diagrams help you visualize the branch structure?
+
+They help us to see the "tree" of a code, so we can know which changes are present in the code.
+
+
+
+What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
+The result is the adition of all the new lines in the two last commits of each branch and the lines which already existed at the parent of the two branches will remain.
+
+
+What are the pros and cons of Git’s automatic merging vs. always doing merges manually?
+
+A pro is, for sure, that you dont lost time by doing this manually, but a cons is that you are not seeing what git is doing and wether if is right.
