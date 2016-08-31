@@ -11,3 +11,14 @@ Because it is possible that i dont want to send some change to the cloud (gitHub
 Describe the differences between forks, clones, and branches. When would you use one instead of another?
 
 Clone is like a copy from the web to your computer our from a folder in your computer to another. Fork is like a clone for the directory, but only in GitHub. Branches are like a copy of a file, and the reason you do this is for making changes at your file without changing the original.
+
+
+What is the benefit of having a copy of the last known state of the remote stored locally?
+
+If you have this copy, you can then compare it with your local master to possibly merge both.
+
+
+
+When would you want to make changes in a separate branch rather than directly in master? What benefits does each approach have?
+
+If you are working with someone else, you might want first create a new branch to add the modification and pull a request so your colaborator can check if he agrees with the changes before you merge the commit which contains the change with the master.
